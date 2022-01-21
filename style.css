@@ -9,3 +9,111 @@ body{
     font-family: sans-serif;
     background-color: #e3e5e8;
 }
+
+
+
+#heading{
+    text-align: center;
+    margin-top:30px;
+}
+
+
+
+/* DRAWER COMPONENT */
+
+
+#drawer-comp{
+    background-color: white;
+    width:260px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    position: relative;
+    left:600px;
+    top:200px;
+}
+
+
+
+
+#header p{
+    color:#d1cdcd;
+    margin-top:5px;
+    margin-left:3px;
+}
+
+
+
+#inbox{
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color:#787675;
+    padding:10px;
+    margin-right:10px;
+}
+
+#inbox p{
+    margin-right:130px;
+}
+
+
+
+
+#star, #drafts , #sent-mail{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+    cursor: pointer;
+    color:#787675;
+    padding:10px;
+    margin-right:10px;
+}
+
+#inbox:hover,#star:hover,#drafts:hover,#sent-mail:hover
+{
+
+    background-color: #ede9e8;
+}
+
+#inbox:active, #star:active,#drafts:active,#sent-mail:active
+{
+   color: rgba(98,0,238,.87);
+   background-color: rgba(98,0,238,0.3);
+}
+
+
+
+
+
+#star p{
+    margin-right:140px;
+    
+}
+
+
+
+/* #sent-mail{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+} */
+
+#sent-mail p{
+    margin-right:110px;
+}
+
+
+
+/* #drafts{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+} */
+
+#drafts p{
+    margin-right:130px;
+}
